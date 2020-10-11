@@ -89,30 +89,39 @@ body{
     /***********************/
 
 .main{
-    height: 100vh;
+    height: 100%;
     margin-left: 23rem;
     padding: 2rem 3rem;
     background-color: rgb(45, 44, 102);
     color: white;
 }
 
+.main > div{
+    margin-bottom: 3rem;
+}
+
 .main > div > h1{
     font-weight: 500;
     font-size: 1.8rem;
-    margin-bottom: 1rem;
+    margin: 1rem 0;
 }
 
-.main p{
+div p{
     font-size: 1.2rem;
-    padding: 1rem;
+    padding: 1rem 0;
     line-height: 2rem;
 }
 
 .main ul{
-    padding-left: 5rem;
+    padding: 1rem 5rem;
     font-size: 1.1rem;
 }
 
 .main li{
+    /* top, horizontal, bottom */
     padding: 1rem 0;
+}
+
+.columns{
+    column-count: 4;
 }
